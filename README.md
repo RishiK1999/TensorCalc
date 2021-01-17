@@ -1,5 +1,5 @@
 # TensorCalc
-![HTN](https://socialify.git.ci/RishiK1999/htn-intro-to-tfjs/image?description=0&font=Bitter&forks=1&issues=1&language=1&owner=1&pulls=1&stargazers=1&theme=Dark)
+![HTN](https://socialify.git.ci/RishiK1999/TensorCalc/image?description=1&font=Bitter&forks=1&issues=1&language=1&owner=1&pulls=1&stargazers=1&theme=Dark)
 
 
 ## Introduction
