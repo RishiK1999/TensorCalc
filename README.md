@@ -11,6 +11,6 @@ This is a repository created for Hack The North 2020++. The program uses a simpl
 
 ## TensorFlow Model Precision
 
-![HTN](https://imgur.com/a/dp9ObsQ)
+[Imgur Link](https://imgur.com/a/dp9ObsQ)
 
 
