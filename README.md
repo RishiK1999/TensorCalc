@@ -1,15 +1,15 @@
-# htn-intro-to-tfjs
-![HTN](https://socialify.git.ci/shivaylamba/htn-intro-to-tfjs/image?description=1&font=Bitter&forks=1&issues=1&language=1&owner=1&pulls=1&stargazers=1&theme=Dark)
+# TensorCalc
+![HTN](https://socialify.git.ci/RishiK1999/TensorCalc/image?description=1&font=Bitter&forks=1&issues=1&language=1&owner=1&pulls=1&stargazers=1&theme=Dark)
 
 ## Introduction
 
-This is a repository created for the Hack The North Workshop on [Introduction to Tensorflow.JS](https://my.hackthenorth.com/schedule?event=708).
-<br> The demo uses a simple COCO-SSD Model for object detection on an image uploaded by the user. 
+This is a repository created for Hack The North 2020++.  The program uses a simple TensorFlow Model for object detection of handwritten math uploaded by the user. 
 
 ## Resources 
-1. [COCO-SSD Model for Tensorflow.JS](https://github.com/tensorflow/tfjs-models/tree/master/coco-ssd)
-2. [COCO-SSD CDN](https://cdn.jsdelivr.net/npm/@tensorflow-models/coco-ssd)
-3. [Workshop Youtube Link](https://www.youtube.com/watch?v=sfhGD0srzic)
+1. TensorFlow Model trained on Microsoft Azure/Custom Vision.
 
-## Implementation
-![image](https://user-images.githubusercontent.com/19529592/104700232-d9936500-5739-11eb-980a-d726b5da116d.png)
+## TensorFlow Model Precision
+
+[Imgur Link](https://imgur.com/a/dp9ObsQ)
+
+
