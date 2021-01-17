@@ -1,14 +1,29 @@
 var model;
-cocoSsd.load().then(
-function(res){
-model = res;
-alert("Model is ready");
-},
-function(){
-console.log("model did not load");
-}
-
-);
+//cocoSsd.load()
+// Example POST method implementation:
+async function postData(url = '', data = {}) {
+	// Default options are marked with *
+	const response = await fetch(url, {
+	  method: 'POST', // *GET, POST, PUT, DELETE, etc.
+	  mode: 'cors', // no-cors, *cors, same-origin
+	  cache: 'no-cache', // *default, no-cache, reload, force-cache, only-if-cached
+	  credentials: 'same-origin', // include, *same-origin, omit
+	  headers: {
+		'Content-Type': 'application/json',
+		'Prediction-Key': 'd3789998162a4bf9959ccd83498a78dc'
+		// 'Content-Type': 'application/x-www-form-urlencoded',
+	  },
+	  redirect: 'follow', // manual, *follow, error
+	  referrerPolicy: 'no-referrer', // no-referrer, *no-referrer-when-downgrade, origin, origin-when-cross-origin, same-origin, strict-origin, strict-origin-when-cross-origin, unsafe-url
+	  body: JSON.stringify(data) // body data type must match "Content-Type" header
+	});
+	return response.json(); // parses JSON response into native JavaScript objects
+  }
+  
+  postData('https://eastus.api.cognitive.microsoft.com/customvision/v3.0/Prediction/47e85b75-c714-4ffb-bb2d-a935385c0adc/detect/iterations/Iteration2/url', {"URL": "https://assets.digitalocean.com/articles/handwriting_tensorflow_python3/wBCHXId.png"})
+	.then(data => {
+	  console.log(data); // JSON data parsed by `data.json()` call
+	});
 
 function invoke_upload_image()
 {
